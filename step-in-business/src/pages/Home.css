@@ -1,0 +1,38 @@
+img {
+    width: 300px;
+    height: 200px;
+}
+.card-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+.industry-title {
+    text-align: center;
+    color:black;
+}
+.Click-an-industry {
+    padding-left: 180px;
+    padding-top: 20px;
+}
+.Home-right-container {
+    margin-right: -500px;
+}
+
+.Click-an-industry {
+    margin-right: 200px;
+}
+
+.Zip-prompt {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    
+
+    font-size: 200%;
+}
+form {
+    padding: 10px;
+    text-align: center;
+}
+

@@ -1,9 +1,14 @@
 import React from 'react';
-//import { MiddleContent } from "./components/MiddleContent"
 export const Home = () => {
   return (
-    <div>
-        This is home
+    <div className="Home-container">
+      <h1> Click an industry!</h1>
+        <div className="card">
+          <img
+            src="./img/restaurant_image.jpg"
+            alt="Restaurant"
+          />
+        </div>
     </div>
   );
 }

@@ -1,20 +1,21 @@
 import './App.css';
-import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Menu } from "./pages/Menu";
 import { Contact } from "./pages/Contact";
 import { Navbar } from "./Navbar";
-
+import { RestaurantRisk } from './pages/RestaurantRisk'; 
 
 function App() {
   return (
     <div className="App">
       <Router>
+
         <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/restaurant-risk" element={<Risk />} />
+          <Route path="/restaurant-risk" element={<RestaurantRisk />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<h1> PAGE NOT FOUND</h1>} />

@@ -1,0 +1,19 @@
+.Navbar {
+    background-color: #be0000;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        height: 55px;
+        width: 100%
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    /* Set the font color (white) */
+    font-size: 40px;
+    /* Set the font size */
+    font-family: Arial, sans-serif;
+    /* Set the font family */
+}

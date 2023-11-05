@@ -9,17 +9,30 @@ gap: 20px;
 }
 .industry-title {
     text-align: center;
+    color:black;
 }
 .Click-an-industry {
-    text-align: right;
+    padding-left: 180px;
     padding-top: 20px;
 }
 .Home-right-container {
     margin-right: -500px;
 }
-.Home-left-container {
-}
+
 .Click-an-industry {
     margin-right: 200px;
+}
+
+.Zip-prompt {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    
+
+    font-size: 200%;
+}
+form {
+    padding: 10px;
+    text-align: center;
 }
 

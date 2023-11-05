@@ -9,31 +9,40 @@ export const Home = () => {
     {
       title: 'Restaurant',
       image: restaurantImage,
+      link: '/restaurant-risk',
     },
     {
       title: 'Healthcare',
       image: healthcareImage,
+      link: '/healthcare-risk',
     },
     {
       title: 'Goods',
       image: goodsImage,
+      link: '/goods-risk',
     },
     {
       title: 'Services',
       image: servicesImage,
+      link: '/services-risk',
     }
   ];
 
   return (
+  <div className="Home-container">
   <div className="Home-right-container">
     <h1 className="Click-an-industry"> Click an industry!</h1>
     <div className="card-container">
       {CardsData.map((card,index)=> (
-        <div className="industry-card" key={index}>
+        <a href={card.link} key={index} div className="industry-card">
           <h4 className="industry-title">{card.title}</h4>
           <img className="industry-image" src={card.image}alt={card.title} />
-    </div>
+    </a>
   ))}
+  </div>
+</div>
+  <div className="Home-left-container">
+
   </div>
 </div>
   );

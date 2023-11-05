@@ -2,17 +2,22 @@ img {
     width: 300px;
     height: 200px;
 }
-.Restaurant-card {
-    margin-left: 800px;
-    margin-top: 60px;
-} 
-.Restaurant-title {
+.card-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+}
+.industry-title {
     text-align: center;
 }
-
+.Click-an-industry {
+    text-align: right;
+    padding-top: 20px;
+}
 .Home-right-container {
-    padding-top: 100px;
-    text-align:right;
+    margin-right: -500px;
+}
+.Home-left-container {
 }
 .Click-an-industry {
     margin-right: 200px;
